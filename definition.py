@@ -11,5 +11,5 @@ class Definition:
         return tuple(df.loc[df.word == self.term].definition)
 
 
-definition = Definition('acid')
-print(definition.get())
+# definition = Definition('acid')
+# print(definition.get())
